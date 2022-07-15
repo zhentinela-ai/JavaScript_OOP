@@ -12,6 +12,25 @@ function sum(x = 0, y = 0, z = 0) {
 console.log(sum(10,20));
 console.log(sum(10,20, 30));
 
+
+// Parametric
+function Stack() {
+  this.items = []
+
+  this.push = function(item) {
+    this.items.push(item)
+  }
+}
+
+const stack = new Stack()
+stack.push("asdad")
+
+const stack2 = new Stack()
+stack2.push(1000)
+
+console.log(stack)
+console.log(stack2)
+
 "Asi funciona en C#"
 // using System;
 

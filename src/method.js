@@ -1,5 +1,3 @@
-
-
 const user = {
   name: "Joe", //properties
   lastName: "McMillan",

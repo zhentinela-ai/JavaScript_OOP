@@ -31,6 +31,34 @@ stack2.push(1000)
 console.log(stack)
 console.log(stack2)
 
+// Subtype
+class Person {
+  constructor(name, lastName) {
+    this.name = name
+    this.lastName = lastName
+  }
+}
+
+class Programmer extends Person{
+  constructor(name, lastName, language) {
+    super(name, lastName)
+    this.language = language
+  }
+}
+
+const john = new Person("john", "ray")
+const ryan = new Person("ryan", "ray", "C#")
+
+console.log(john)
+console.log(ryan)
+
+function writeFullName(p) {
+  console.log(p.name +  " " + p.lastName)
+}
+
+writeFullName(john)
+writeFullName(ryan)
+
 "Asi funciona en C#"
 // using System;
 

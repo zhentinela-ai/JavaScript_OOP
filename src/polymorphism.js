@@ -31,7 +31,7 @@ stack2.push(1000)
 console.log(stack)
 console.log(stack2)
 
-// Subtype
+// Subtypes
 class Person {
   constructor(name, lastName) {
     this.name = name
@@ -70,8 +70,24 @@ writeFullName(ryan)
 //     Console.WriteLine(program.CountItems(30000000));
 //     Console.WriteLine(program.CountItems("Hola Mundo"));
 
+//     var stack = new Stack<string>();
+//     var stack2 = new Stack<int>();
+    
 //     Console.WriteLine(program.Sum(10, 15));
 //     Console.WriteLine(program.Sum(10, 15, 20));
+
+//     var john = new Person();
+//     john.Name = "John";
+//     john.LastName = "Ray";
+//     program.WriteFullName(john);
+
+//     var ryan = new Programmer();
+//     ryan.Name = "Ryan";
+//     ryan.LastName = "Ray";
+//     ryan.Language = "C#";
+    
+//     program.WriteFullName(ryan);
+    
 //   }
 
 //   // Overloading
@@ -90,4 +106,23 @@ writeFullName(ryan)
 //   public int Sum(int x, int y, int z) {
 //     return x + y + z;
 //   }
+
+//   public void WriteFullName(Person p) {
+//     Console.WriteLine(p.Name + " " + p.LastName);
+//   }
+  
+// }
+
+// public class Stack<T> {
+//   private T[] items;
+//   public void Push() {}
+// }
+
+// public class Person {
+//   public String Name {get; set;}
+//   public String LastName {get; set;}
+// }
+
+// public class Programmer: Person {
+//   public String Language {get; set;}
 // }
